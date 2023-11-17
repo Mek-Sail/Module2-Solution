@@ -3,26 +3,35 @@
 	font-family: "Goudy Bookletter 1911", sans-serif;
 	font-size: 28px;
 	box-sizing: border-box;
-	display: block;
 }
+section{
+		width: 95%
+	}
+
 body{
  	align-items: center;
  	justify-content: center;
 }
 @media (min-width: 1200px) {
-	section {
+	article {
 		width: 30%;
+		margin-right: 2%  ;
+		margin-left: 2%  ;
 	}
 }
 
 @media (min-width: 768px ) and (max-width: 1199px) {
-	section {
-		width: 40%;
+		article {
+		width: 45%;
+		margin-right: 2%;
+		margin-left: 2%  ;
 	}
 }
 @media (max-width: 767px ) {
-	section {
-		width: 80%;
+	article {
+		width: 90%;
+		margin-right: 2%;
+		margin-left: 2%  ;
 	}
 }
 h1{
@@ -42,10 +51,11 @@ p{
 	clear:right;
 	margin-bottom: 0px;
 	font-size: 16px;
+	min-height: 210px;
 	}
-section{
+article{
 	background-color:gray;
-	margin: 5px;
+	margin: 10px;
 	border: 1px solid black;
 	float: left;
 }
