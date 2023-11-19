@@ -3,9 +3,23 @@
 	font-family: "Goudy Bookletter 1911", sans-serif;
 	font-size: 28px;
 	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
 }
 section{
 		width: 95%
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 60px;
+		}
+p{
+	font-style: italic;
+	font-size: :16px;
+	padding: 10px;
+	clear:right;
+	margin-bottom: 0px;
+	font-size: 16px;
+	min-height: 210px;
 	}
 
 body{
@@ -16,7 +30,7 @@ body{
 	article {
 		width: 30%;
 		margin-right: 2%  ;
-		margin-left: 2%  ;
+		margin-left: 2%  ;	
 	}
 }
 
@@ -26,6 +40,12 @@ body{
 		margin-right: 2%;
 		margin-left: 2%  ;
 	}
+	p{
+	min-height: 126px;
+	}
+	#article3{
+	width: 92%;
+	}
 }
 @media (max-width: 767px ) {
 	article {
@@ -33,6 +53,10 @@ body{
 		margin-right: 2%;
 		margin-left: 2%  ;
 	}
+	p{
+	min-height: 10px;
+	}
+
 }
 h1{
 	text-align: center;
@@ -44,15 +68,6 @@ div{
 	float: right;
 	font-size: 20px;
 }
-p{
-	font-style: italic;
-	font-size: :16px;
-	padding: 10px;
-	clear:right;
-	margin-bottom: 0px;
-	font-size: 16px;
-	min-height: 210px;
-	}
 article{
 	background-color:gray;
 	margin: 10px;
